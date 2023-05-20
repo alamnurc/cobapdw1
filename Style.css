@@ -1,0 +1,66 @@
+html {
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    background-color:wheat;
+    line-height: 16px;
+}
+.header{
+    padding: 2px;
+    text-align: center;
+    position:static;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    border: 2px solid goldenrod;
+    background: wheat;
+    color: darkgoldenrod;
+    border-radius: 16px;
+    padding: 2px 8px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0px;
+    }
+.left-div{
+    width: 100px;
+    display: inline-block;
+   }
+.right-div{
+    display:inline-block;
+   }
+
+p:hover{
+    background-color: goldenrod;
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    height: 30px;
+    padding-left: 0px;
+    line-height: 30px;
+    color: black;
+    position:static;
+    text-align: center;
+    bottom: 0px;
+}
+.circle {
+    position: fixed;
+    display: inline-block;
+    border-radius: 50%;
+    border: 3px solid #6f5411;
+    width: 10px;
+    height: 10px;
+    left: 20px;
+    right: 0;
+    transition: transform .2s ease, opacity .2s ease, border-color .2s ease, background-color .2s ease;
+    pointer-events: none;
+  }
+
+*{
+    cursor: none;
+}
